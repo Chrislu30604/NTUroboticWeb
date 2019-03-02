@@ -1,0 +1,21 @@
+// -----------------------------------------------------------------------------
+// This file rule some html tag
+// -----------------------------------------------------------------------------
+
+/**
+ * Headings
+ */
+
+h1, h2 {
+    margin-top: 40px;
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+h1 {
+    font-family: $text-fontFamily-heading;
+    font-weight: 800;
+    font-size : 50px;
+    opacity: 0.8;
+    text-shadow: 2px 4px 3px rgba(0, 0, 0, 0.3);
+}

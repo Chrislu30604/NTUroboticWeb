@@ -1,0 +1,13 @@
+// -----------------------------------------------------------------------------
+// This file define the team page 
+// -----------------------------------------------------------------------------
+
+.team-row {
+    @include flexbox-container(space-evenly, flex-start);
+    flex-wrap: wrap;
+}
+
+.team-column {
+    width: 300px;
+    height: 400px;
+}

@@ -1,0 +1,17 @@
+// -----------------------------------------------------------------------------
+// This file contains all application-wide Sass variables.
+// -----------------------------------------------------------------------------
+
+// vendor font
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400italic,600italic,700italic,400,600,700');
+
+// font type
+$text-fontFamily: 'Open Sans', sans-serif;
+$text-fontFamily-heading: 'Source Sans Pro', sans-serif; 
+
+// color
+$light-grey: #EEEEEE;
+
+$light-black: rgba(31, 32, 34, 0.804);
+
+$tiffany: rgba(37, 152, 206, 1);

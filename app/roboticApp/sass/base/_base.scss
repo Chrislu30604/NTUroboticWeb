@@ -1,0 +1,18 @@
+// -----------------------------------------------------------------------------
+// This file contains very basic styles.
+// -----------------------------------------------------------------------------
+
+/**
+ * Set up root element
+ */ 
+
+html {
+	font-family: $text-fontFamily;
+	font-weight: normal 125%;
+	box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    background: $light-grey;
+}

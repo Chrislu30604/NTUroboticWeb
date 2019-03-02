@@ -1,0 +1,43 @@
+// -----------------------------------------------------------------------------
+// This file define the member wrapper
+// -----------------------------------------------------------------------------
+
+
+/**
+ * member container 
+ */
+
+.container-members {
+    .row {
+        margin: 0 auto;
+        @include flexbox-container;
+        flex-wrap: wrap;
+        width: 60%;
+
+        .col-md-4 {
+            margin-right: 30px;
+
+            .team-member { 
+                margin: 15px 0;
+                padding: 0;
+
+                img {
+                    max-height: 250px;
+                    max-width: 250px;
+                }
+
+                ul {
+                    @include flexbox-container(space-evenly, center);
+                    margin: 0;
+                    padding: 0;
+                    list-style-type: none;
+                }
+
+                h4 {
+                    margin: 10px 0 0;
+                    padding: 0;
+                }
+            }
+        }
+    }
+}
